@@ -1,0 +1,13 @@
+Working Directory
+1. git add file name
+or git add .
+
+Stagin Area
+
+1. git commit -m ""
+
+Local Repo
+
+1. git push -u origin master/main
+
+Remote Repo
