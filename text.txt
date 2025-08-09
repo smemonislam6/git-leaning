@@ -2,9 +2,17 @@ Working Directory
 1. git add file name
 or git add .
 
+Remove
+1. git reset
+
 Stagin Area
 
 1. git commit -m ""
+
+Remove
+ git reset --soft HEAD^ or HEAD~1 -> staging
+ git reset --mixed HEAD^ or HEAD~1 -> staging + Working Directory
+ git reset --hard HEAD^ or HEAD~1 -> staging + Working Directory + All
 
 Local Repo
 
@@ -12,12 +20,12 @@ Local Repo
 
 Remote Repo
 
+Remove
+git reset --hard HEAD^ or HEAD~1 -> staging + Working Directory + All
+git push origin -f
 
 git history
 1. git log
  git log --oneline
  git log --all --graph
 
- git reset --soft HEAD^ or HEAD~1 -> staging
- git reset --mixed HEAD^ or HEAD~1 -> staging + Working Directory
- git reset --hard HEAD^ or HEAD~1 -> staging + Working Directory + All
